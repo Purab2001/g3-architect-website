@@ -145,6 +145,9 @@ main > section{
     margin-top: 5px;
     margin-bottom: 10px;
 }
+.fact-description{
+    max-width: 540px;
+}
 
 /* responsive media query */
 @media screen and (max-width:576px) {
