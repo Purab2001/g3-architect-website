@@ -5,6 +5,14 @@
     font-weight: 400;
     font-style: normal;
 }
+button{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
 
 /* Shared Styles */
 .display-flex{
