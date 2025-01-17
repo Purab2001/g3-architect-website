@@ -251,7 +251,7 @@ footer{
 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
     .our-features{
@@ -261,5 +261,11 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+    footer{
+        margin: 20px;
+    }
+    #experience-badge{
+        margin: 0 auto;
     }
 }
