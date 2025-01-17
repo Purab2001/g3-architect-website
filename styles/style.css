@@ -234,8 +234,7 @@ footer{
         margin-left: 20px;
     }
     #experience-badge{
-        margin-top: 20px;
-        margin-left: 20px;
+        margin: auto 10px;
     }
     footer{
         margin: 20px;
